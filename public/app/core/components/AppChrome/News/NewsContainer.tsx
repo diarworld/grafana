@@ -22,7 +22,7 @@ export function NewsContainer({ className }: NewsContainerProps) {
     <>
       <ToolbarButton className={className} onClick={onChildClick} iconOnly icon="rss" aria-label="News" />
       {showNewsDrawer && (
-        <Drawer title={t('news.title', 'Latest from the blog')} scrollableContent onClose={onToggleShowNewsDrawer}>
+        <Drawer title={t('news.title', 'Новости из блога')} scrollableContent onClose={onToggleShowNewsDrawer}>
           <NewsWrapper feedUrl={DEFAULT_FEED_URL} />
         </Drawer>
       )}

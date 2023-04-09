@@ -52,9 +52,9 @@ describe('Exemplars', () => {
     cy.contains('label', 'Code').click();
 
     // we need to wait for the query-field being lazy-loaded, in two steps:
-    // 1. first we wait for the text 'Loading...' to appear
-    // 1. then we wait for the text 'Loading...' to disappear
-    const monacoLoadingText = 'Loading...';
+    // 1. first we wait for the text 'Загрузка...' to appear
+    // 1. then we wait for the text 'Загрузка...' to disappear
+    const monacoLoadingText = 'Загрузка...';
     e2e.components.QueryField.container().should('be.visible').should('have.text', monacoLoadingText);
     e2e.components.QueryField.container().should('be.visible').should('not.have.text', monacoLoadingText);
 

@@ -60,7 +60,7 @@ const setup = (propOverrides?: Partial<Props>) => {
 describe('RichHistoryContainer', () => {
   it('should show loading message when settings are not ready', () => {
     const { container } = setup({ richHistorySettings: undefined });
-    expect(container).toHaveTextContent('Loading...');
+    expect(container).toHaveTextContent('Загрузка...');
   });
   it('should render component with correct width', () => {
     const { container } = setup();

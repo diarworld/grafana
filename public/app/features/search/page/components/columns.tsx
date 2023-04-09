@@ -121,7 +121,7 @@ export const generateColumns = (
       let name = access.name.values.get(p.row.index);
       if (!name?.length) {
         const loading = p.row.index >= response.view.dataFrame.length;
-        name = loading ? 'Loading...' : 'Missing title'; // normal for panels
+        name = loading ? 'Загрузка...' : 'Missing title'; // normal for panels
         classNames += ' ' + styles.missingTitleText;
       }
       return (

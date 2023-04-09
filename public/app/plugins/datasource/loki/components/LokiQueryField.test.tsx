@@ -35,7 +35,7 @@ describe('LokiQueryField', () => {
   it('refreshes metrics when time range changes over 1 minute', async () => {
     const { rerender } = render(<LokiQueryField {...props} />);
 
-    expect(await screen.findByText('Loading...')).toBeInTheDocument();
+    expect(await screen.findByText('Загрузка...')).toBeInTheDocument();
 
     expect(props.datasource.languageProvider.fetchLabels).not.toHaveBeenCalled();
 
@@ -56,7 +56,7 @@ describe('LokiQueryField', () => {
   it('does not refreshes metrics when time range change by less than 1 minute', async () => {
     const { rerender } = render(<LokiQueryField {...props} />);
 
-    expect(await screen.findByText('Loading...')).toBeInTheDocument();
+    expect(await screen.findByText('Загрузка...')).toBeInTheDocument();
 
     expect(props.datasource.languageProvider.fetchLabels).not.toHaveBeenCalled();
 
@@ -79,6 +79,6 @@ describe('LokiQueryField', () => {
     render(<LokiQueryField {...props} />);
 
     expect(await screen.findByText('Enter a Loki query (run with Shift+Enter)')).toBeInTheDocument();
-    expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
+    expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument();
   });
 });

@@ -59,7 +59,7 @@ describe('GrafanaRoute', () => {
 
     setup({ route: { component: PageComponent, path: '' } });
 
-    expect(await screen.findByText('Loading...')).toBeInTheDocument();
+    expect(await screen.findByText('Загрузка...')).toBeInTheDocument();
   });
 
   it('Shows error on page error', async () => {

@@ -8,7 +8,7 @@ export function GrafanaRouteLoading() {
 
   return (
     <div className={styles.loadingPage}>
-      <LoadingPlaceholder text={'Loading...'} />
+      <LoadingPlaceholder text={'Загрузка...'} />
     </div>
   );
 }

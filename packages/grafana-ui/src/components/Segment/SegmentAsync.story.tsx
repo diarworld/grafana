@@ -228,7 +228,7 @@ export const Basic: ComponentStory<React.ComponentType<SegmentAsyncProps<string>
     noOptionMessageHandler: (state) => {
       action('noOptionMessageHandler fired')(state);
       if (state.loading) {
-        return 'Loading...';
+        return 'Загрузка...';
       }
       if (state.error) {
         return 'Failed to load options';

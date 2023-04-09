@@ -51,9 +51,7 @@ export function DashboardSearchModal({ isOpen }: Props) {
               <div>
                 <input
                   type="text"
-                  placeholder={
-                    state.includePanels ? 'Search dashboards and panels by name' : 'Search dashboards by name'
-                  }
+                  placeholder={state.includePanels ? 'Поиск дашбордов и панелей по имени' : 'Поиск дашбордов по имени'}
                   value={state.query ?? ''}
                   onChange={(e) => stateManager.onQueryChange(e.currentTarget.value)}
                   onKeyDown={onKeyDown}

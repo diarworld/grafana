@@ -160,7 +160,7 @@ export const LogGroupsSelector = ({
                 {isLoading && (
                   <tr className={styles.row}>
                     <td className={styles.cell}>
-                      <LoadingPlaceholder text={'Loading...'} />
+                      <LoadingPlaceholder text={'Загрузка...'} />
                     </td>
                   </tr>
                 )}

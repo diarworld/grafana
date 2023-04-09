@@ -38,7 +38,7 @@ e2e.scenario({
     e2e().contains('Code').click();
 
     // Wait for lazy loading
-    const monacoLoadingText = 'Loading...';
+    const monacoLoadingText = 'Загрузка...';
 
     e2e.components.QueryField.container().should('be.visible').should('have.text', monacoLoadingText);
     e2e.components.QueryField.container().should('be.visible').should('not.have.text', monacoLoadingText);

@@ -109,7 +109,7 @@ describe('MetricsQueryEditor', () => {
     resourcePickerButton.click();
 
     await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
+      expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument();
     });
 
     const selection = await screen.findAllByLabelText('web-server');

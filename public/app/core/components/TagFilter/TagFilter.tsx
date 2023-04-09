@@ -134,7 +134,7 @@ export const TagFilter = ({
     getOptionValue: (i: any) => i.value,
     inputId,
     isMulti: true,
-    loadingMessage: 'Loading...',
+    loadingMessage: 'Загрузка...',
     noOptionsMessage: 'No tags found',
     onChange: onTagChange,
     placeholder,

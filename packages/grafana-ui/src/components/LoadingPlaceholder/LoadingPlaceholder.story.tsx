@@ -27,7 +27,7 @@ export const Basic: ComponentStory<typeof LoadingPlaceholder> = (args: LoadingPl
 };
 
 Basic.args = {
-  text: 'Loading...',
+  text: 'Загрузка...',
 };
 
 export default meta;

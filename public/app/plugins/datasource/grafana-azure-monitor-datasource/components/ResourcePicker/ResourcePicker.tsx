@@ -194,7 +194,7 @@ const ResourcePicker = ({
             {isLoading && (
               <tr className={cx(styles.row)}>
                 <td className={styles.cell}>
-                  <LoadingPlaceholder text={'Loading...'} />
+                  <LoadingPlaceholder text={'Загрузка...'} />
                 </td>
               </tr>
             )}

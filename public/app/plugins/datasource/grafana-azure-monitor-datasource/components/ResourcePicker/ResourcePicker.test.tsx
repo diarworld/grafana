@@ -106,7 +106,7 @@ describe('AzureMonitor ResourcePicker', () => {
   it('should show scroll down to a resource and mark it as selected if there is one saved', async () => {
     render(<ResourcePicker {...defaultProps} resources={[singleResourceSelectionURI]} />);
     await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
+      expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument();
     });
     const resourceCheckboxes = await screen.findAllByLabelText('db-server');
     expect(resourceCheckboxes.length).toBe(2);
@@ -226,7 +226,7 @@ describe('AzureMonitor ResourcePicker', () => {
       />
     );
     await waitFor(() => {
-      expect(screen.queryByText('Loading...')).not.toBeInTheDocument();
+      expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument();
     });
     const checkbox = await screen.findAllByLabelText('web-server');
     expect(checkbox).toHaveLength(2);
@@ -284,13 +284,13 @@ describe('AzureMonitor ResourcePicker', () => {
 
     await userEvent.type(searchField, 'sear');
 
-    const loading = await screen.findByText('Loading...');
+    const loading = await screen.findByText('Загрузка...');
     expect(loading).toBeInTheDocument();
 
     const searchResult = await screen.findByLabelText('search-result');
     expect(searchResult).toBeInTheDocument();
 
-    const loadingAfterResults = screen.queryByText('Loading...');
+    const loadingAfterResults = screen.queryByText('Загрузка...');
     expect(loadingAfterResults).not.toBeInTheDocument();
   });
 

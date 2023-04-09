@@ -82,9 +82,9 @@ describe('LogGroupsSelector', () => {
     });
     render(<LogGroupsSelector {...defaultProps} fetchLogGroups={fetchLogGroups} />);
     await userEvent.click(screen.getByText('Select Log Groups'));
-    expect(screen.getByText('Loading...')).toBeInTheDocument();
+    expect(screen.getByText('Загрузка...')).toBeInTheDocument();
     defer.resolve();
-    await waitFor(() => expect(screen.queryByText('Loading...')).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument());
     expect(fetchLogGroups).toBeCalledTimes(1);
     expect(screen.getAllByRole('checkbox').length).toBe(2);
   });
@@ -97,9 +97,9 @@ describe('LogGroupsSelector', () => {
     });
     render(<LogGroupsSelector {...defaultProps} fetchLogGroups={fetchLogGroups} />);
     await userEvent.click(screen.getByText('Select Log Groups'));
-    expect(screen.getByText('Loading...')).toBeInTheDocument();
+    expect(screen.getByText('Загрузка...')).toBeInTheDocument();
     defer.resolve();
-    await waitFor(() => expect(screen.queryByText('Loading...')).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument());
     expect(fetchLogGroups).toBeCalledTimes(1);
     expect(screen.queryAllByRole('checkbox').length).toBe(0);
     expect(screen.getByText('No log groups found')).toBeInTheDocument();
@@ -130,17 +130,17 @@ describe('LogGroupsSelector', () => {
     });
     render(<LogGroupsSelector {...defaultProps} fetchLogGroups={fetchLogGroups} />);
     await userEvent.click(screen.getByText('Select Log Groups'));
-    expect(screen.getByText('Loading...')).toBeInTheDocument();
+    expect(screen.getByText('Загрузка...')).toBeInTheDocument();
     firstCall.resolve();
-    await waitFor(() => expect(screen.queryByText('Loading...')).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument());
     expect(fetchLogGroups).toBeCalledTimes(1);
     expect(screen.getAllByRole('checkbox').length).toBe(2);
     await selectEvent.select(screen.getByLabelText('Account Selection'), 'Account Name 123', {
       container: document.body,
     });
-    expect(screen.getByText('Loading...')).toBeInTheDocument();
+    expect(screen.getByText('Загрузка...')).toBeInTheDocument();
     secondCall.resolve();
-    await waitFor(() => expect(screen.queryByText('Loading...')).not.toBeInTheDocument());
+    await waitFor(() => expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument());
     expect(fetchLogGroups).toBeCalledWith({ accountId: 'account-id123', logGroupPattern: '' });
   });
 

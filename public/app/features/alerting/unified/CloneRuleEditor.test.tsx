@@ -56,7 +56,7 @@ const ui = {
     labelValue: (idx: number) => byTestId(`label-value-${idx}`),
   },
   loadingIndicator: byText('Loading the rule'),
-  loadingGroupIndicator: byText('Loading...'),
+  loadingGroupIndicator: byText('Загрузка...'),
 };
 
 function getProvidersWrapper() {

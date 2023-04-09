@@ -44,7 +44,6 @@ export function AppChrome({ children }: Props) {
             actions={state.actions}
             onToggleSearchBar={chrome.onToggleSearchBar}
             onToggleMegaMenu={chrome.onToggleMegaMenu}
-            onToggleKioskMode={chrome.onToggleKioskMode}
           />
         </div>
       )}

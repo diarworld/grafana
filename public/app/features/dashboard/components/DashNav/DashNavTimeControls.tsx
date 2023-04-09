@@ -85,7 +85,7 @@ export class DashNavTimeControls extends Component<Props> {
     const timePickerValue = getTimeSrv().timeRange();
     const timeZone = dashboard.getTimezone();
     const fiscalYearStartMonth = dashboard.fiscalYearStartMonth;
-    const hideIntervalPicker = dashboard.panelInEdit?.isEditing;
+    const hideIntervalPicker = true;
 
     return (
       <>

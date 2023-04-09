@@ -24,6 +24,6 @@ describe('MonacoQueryField', () => {
   test('Renders with no errors', async () => {
     renderComponent();
 
-    expect(await screen.findByText('Loading...')).toBeInTheDocument();
+    expect(await screen.findByText('Загрузка...')).toBeInTheDocument();
   });
 });
