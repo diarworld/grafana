@@ -583,6 +583,7 @@ export enum TableCellDisplayMode {
   ColorText = 'color-text',
   Gauge = 'gauge',
   GradientGauge = 'gradient-gauge',
+  HTML = 'html',
   Image = 'image',
   JSONView = 'json-view',
   LcdGauge = 'lcd-gauge',
@@ -628,6 +629,13 @@ export interface TableJsonViewCellOptions {
 }
 
 /**
+ * HTML cell options
+ */
+export interface TableHTMLCellOptions {
+  type: TableCellDisplayMode.HTML;
+}
+
+/**
  * Json view cell options
  */
 export interface TableImageCellOptions {
@@ -654,7 +662,7 @@ export interface TableColoredBackgroundCellOptions {
  * Table cell options. Each cell has a display mode
  * and other potential options for that display.
  */
-export type TableCellOptions = (TableAutoCellOptions | TableBarGaugeCellOptions | TableColoredBackgroundCellOptions | TableColorTextCellOptions | TableImageCellOptions | TableJsonViewCellOptions);
+export type TableCellOptions = (TableAutoCellOptions | TableBarGaugeCellOptions | TableColoredBackgroundCellOptions | TableColorTextCellOptions | TableImageCellOptions | TableHTMLCellOptions | TableJsonViewCellOptions);
 
 /**
  * Use UTC/GMT timezone

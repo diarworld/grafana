@@ -75,4 +75,5 @@ const cellDisplayModeOptions: Array<SelectableValue<TableCellOptions>> = [
   { value: { type: TableCellDisplayMode.Gauge }, label: 'Gauge' },
   { value: { type: TableCellDisplayMode.JSONView }, label: 'JSON View' },
   { value: { type: TableCellDisplayMode.Image }, label: 'Image' },
+  { value: { type: TableCellDisplayMode.HTML }, label: 'HTML' },
 ];

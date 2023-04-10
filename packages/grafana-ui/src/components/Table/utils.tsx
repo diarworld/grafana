@@ -27,6 +27,7 @@ import { BarGaugeCell } from './BarGaugeCell';
 import { DefaultCell } from './DefaultCell';
 import { getFooterValue } from './FooterRow';
 import { GeoCell } from './GeoCell';
+import { HTMLCell } from './HTMLCell';
 import { ImageCell } from './ImageCell';
 import { JSONViewCell } from './JSONViewCell';
 import { RowExpander } from './RowExpander';
@@ -173,6 +174,8 @@ export function getCellComponent(displayMode: TableCellDisplayMode, field: Field
       return BarGaugeCell;
     case TableCellDisplayMode.JSONView:
       return JSONViewCell;
+    case TableCellDisplayMode.HTML:
+      return HTMLCell;
   }
 
   if (field.type === FieldType.geo) {
