@@ -27,7 +27,15 @@
     "locale": {
       "default": "默认"
     },
-    "save": "保存"
+    "save": "保存",
+    "cancel-load": "Cancel loading dashboard",
+    "dates": {
+      "today": "today",
+      "yesterday": "yesterday",
+      "week": "a week ago",
+      "twoweeks": "two weeks ago",
+      "daysago": "days ago"
+    }
   },
   "dashboard": {
     "inspect": {

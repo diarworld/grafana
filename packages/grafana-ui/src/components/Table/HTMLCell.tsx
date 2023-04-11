@@ -33,7 +33,7 @@ export function HTMLCell(props: TableCellProps): JSX.Element {
       <div className={cx(tableStyles.cellText, txt)}>
         {!hasLinks && (
           <div className={tableStyles.cellText}>
-            <DangerouslySetHtmlContent html={displayValue} className="heml-content" data-testid="HTML-content" />
+            <DangerouslySetHtmlContent html={displayValue} className="html-content" data-testid="HTML-content" />
           </div>
         )}
         {hasLinks && (

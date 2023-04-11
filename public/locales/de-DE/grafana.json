@@ -27,7 +27,15 @@
     "locale": {
       "default": "Standard"
     },
-    "save": "Speichern"
+    "save": "Speichern",
+    "cancel-load": "Cancel loading dashboard",
+    "dates": {
+      "today": "today",
+      "yesterday": "yesterday",
+      "week": "a week ago",
+      "twoweeks": "two weeks ago",
+      "daysago": "days ago"
+    }
   },
   "dashboard": {
     "inspect": {

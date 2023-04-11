@@ -27,7 +27,15 @@
     "locale": {
       "default": "Đęƒäūľŧ"
     },
-    "save": "Ŝävę"
+    "save": "Ŝävę",
+    "cancel-load": "Cäncel loäding däshboard",
+    "dates": {
+      "today": "today",
+      "yesterday": "yesterday",
+      "week": "a week ago",
+      "twoweeks": "two weeks ago",
+      "daysago": "days ago"
+    }
   },
   "dashboard": {
     "inspect": {
