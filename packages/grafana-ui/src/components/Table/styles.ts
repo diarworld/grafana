@@ -7,7 +7,7 @@ export const getTableStyles = (theme: GrafanaTheme2) => {
   const resizerColor = theme.colors.primary.border;
   const cellPadding = 6;
   const lineHeight = theme.typography.body.lineHeight;
-  const bodyFontSize = 14;
+  const bodyFontSize = 12;
   const cellHeight = cellPadding * 2 + bodyFontSize * lineHeight;
   const rowHeight = cellHeight + 2;
   const rowHoverBg = theme.colors.emphasize(theme.colors.background.primary, 0.03);

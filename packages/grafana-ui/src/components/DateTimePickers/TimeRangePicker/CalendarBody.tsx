@@ -13,7 +13,8 @@ export function Body({ onChange, from, to, timeZone }: TimePickerCalendarProps) 
   const value = inputToValue(from, to);
   const onCalendarChange = useOnCalendarChange(onChange, timeZone);
   const styles = useStyles2(getBodyStyles);
-
+  const maxDate = new Date(Date.now() - 86400000);
+  maxDate.setHours(0, 0, 0, 0);
   return (
     <Calendar
       selectRange={true}
@@ -25,7 +26,8 @@ export function Body({ onChange, from, to, timeZone }: TimePickerCalendarProps) 
       nextLabel={<Icon name="angle-right" />}
       prevLabel={<Icon name="angle-left" />}
       onChange={onCalendarChange}
-      locale="en"
+      locale="ru"
+      maxDate={maxDate}
     />
   );
 }
@@ -93,7 +95,7 @@ export const getBodyStyles = (theme: GrafanaTheme2) => {
       .react-calendar__navigation {
         padding-top: 4px;
         background-color: inherit;
-        color: ${theme.colors.text.primary};
+        color: ${theme.colors.text.maxContrast};
         border: 0;
         font-weight: ${theme.typography.fontWeightMedium};
       }
@@ -121,6 +123,10 @@ export const getBodyStyles = (theme: GrafanaTheme2) => {
         margin-bottom: 4px;
         background-color: inherit;
         height: 26px;
+      }
+
+      .react-calendar__tile:disabled {
+        color: ${theme.colors.text.disabled};
       }
 
       .react-calendar__navigation__label,

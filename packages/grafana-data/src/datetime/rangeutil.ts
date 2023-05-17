@@ -18,25 +18,19 @@ const spans: { [key: string]: { display: string; section?: number } } = {
 };
 
 const rangeOptions: TimeOption[] = [
-  { from: 'now/w', to: 'now/w', display: 'Текущая неделя' },
-  { from: 'now/M', to: 'now', display: 'С начала месяца' },
-  { from: 'now/y', to: 'now/y', display: 'Этот год' },
-  { from: 'now/y', to: 'now', display: 'С начала года' },
   { from: 'now-1d/d', to: 'now-1d/d', display: 'Вчера' },
+  { from: 'now/w', to: 'now-1d/d', display: 'Текущая неделя' },
+  { from: 'now/M', to: 'now-1d/d', display: 'С начала месяца' },
+  { from: 'now/y', to: 'now-1d/d', display: 'С начала года' },
   { from: 'now-2d/d', to: 'now-2d/d', display: 'Позавчера' },
   { from: 'now-7d/d', to: 'now-7d/d', display: 'Неделю назад' },
   { from: 'now-1w/w', to: 'now-1w/w', display: 'Прошлая неделя' },
   { from: 'now-1M/M', to: 'now-1M/M', display: 'Прошлый месяц' },
-  { from: 'now-1Q/fQ', to: 'now-1Q/fQ', display: 'Прошлый финансовый квартал' },
-  { from: 'now-1y/y', to: 'now-1y/y', display: 'Прошлый год' },
-  { from: 'now-7d', to: 'now', display: 'Последние 7 дней' },
-  { from: 'now-30d', to: 'now', display: 'Последние 30 дней' },
-  { from: 'now-90d', to: 'now', display: 'Последние 90 дней' },
-  { from: 'now-6M', to: 'now', display: 'Последние 6 месяцев' },
-  { from: 'now-1y', to: 'now', display: 'Последний 1 год' },
-  { from: 'now-2y', to: 'now', display: 'Последние 2 года' },
-  { from: 'now-5y', to: 'now', display: 'Последние 5 лет' },
-  { from: 'now/fQ', to: 'now', display: 'С начала финансового квартала' },
+  { from: 'now-8d', to: 'now-1d/d', display: 'Последние 7 дней' },
+  { from: 'now-31d', to: 'now-1d/d', display: 'Последние 30 дней' },
+  { from: 'now-91d', to: 'now-1d/d', display: 'Последние 90 дней' },
+  { from: 'now-6M-1d', to: 'now-1d/d', display: 'Последние 6 месяцев' },
+  { from: 'now-1y-1d', to: 'now-1d/d', display: 'Последний 1 год' },
 ];
 
 const hiddenRangeOptions: TimeOption[] = [
