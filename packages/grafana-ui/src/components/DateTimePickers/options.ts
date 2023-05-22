@@ -2,9 +2,9 @@ import { SelectableValue, TimeOption } from '@grafana/data';
 
 export const quickOptions: TimeOption[] = [
   { from: 'now-1d/d', to: 'now-1d/d', display: 'Вчера' },
-  { from: 'now/w', to: 'now-1d/d', display: 'Текущая неделя' },
-  { from: 'now/M', to: 'now-1d/d', display: 'С начала месяца' },
-  { from: 'now/y', to: 'now-1d/d', display: 'С начала года' },
+  { from: 'now-1d/w', to: 'now-1d/d', display: 'Текущая неделя' },
+  { from: 'now-1d/M', to: 'now-1d/d', display: 'С начала месяца' },
+  { from: 'now-1d/y', to: 'now-1d/d', display: 'С начала года' },
   { from: 'now-2d/d', to: 'now-2d/d', display: 'Позавчера' },
   { from: 'now-7d/d', to: 'now-7d/d', display: 'Неделю назад' },
   { from: 'now-1w/w', to: 'now-1w/w', display: 'Прошлая неделя' },
