@@ -6,49 +6,48 @@ import { Modal, useStyles2 } from '@grafana/ui';
 import { getModKey } from 'app/core/utils/browser';
 
 const getShortcuts = (modKey: string) => ({
-  Global: [
-    { keys: ['g', 'h'], description: 'Go to Home Dashboard' },
-    { keys: ['g', 'e'], description: 'Go to Explore' },
-    { keys: ['g', 'p'], description: 'Go to Profile' },
-    { keys: ['s', 'o'], description: 'Open search' },
-    { keys: ['esc'], description: 'Exit edit/setting views' },
-    { keys: ['h'], description: 'Show all keyboard shortcuts' },
-    { keys: [`${modKey}+k`], description: 'Open command palette' },
-    { keys: ['c', 't'], description: 'Change theme' },
+  Глобальные: [
+    { keys: ['g', 'h'], description: 'На главную' },
+    { keys: ['g', 'p'], description: 'Профиль' },
+    { keys: ['s', 'o'], description: 'Открыть поиск' },
+    { keys: ['esc'], description: 'Выход из просмотра/редактирования' },
+    { keys: ['h'], description: 'Показать все сочетания клавиш' },
+    { keys: [`${modKey}+k`], description: 'Открыть палитру команд' },
+    { keys: ['c', 't'], description: 'Менять тему' },
   ],
-  Dashboard: [
-    { keys: [`${modKey}+s`], description: 'Save dashboard' },
-    { keys: ['d', 'r'], description: 'Refresh all panels' },
-    { keys: ['d', 's'], description: 'Dashboard settings' },
-    { keys: ['d', 'v'], description: 'Toggle in-active / view mode' },
-    { keys: ['d', 'k'], description: 'Toggle kiosk mode (hides top nav)' },
-    { keys: ['d', 'E'], description: 'Expand all rows' },
-    { keys: ['d', 'C'], description: 'Collapse all rows' },
-    { keys: ['d', 'a'], description: 'Toggle auto fit panels (experimental feature)' },
-    { keys: [`${modKey}+o`], description: 'Toggle shared graph crosshair' },
-    { keys: ['d', 'l'], description: 'Toggle all panel legends' },
+  Дашборд: [
+    { keys: [`${modKey}+s`], description: 'Сохранить панель управления' },
+    { keys: ['d', 'r'], description: 'Обновить все панели' },
+    { keys: ['d', 's'], description: 'Настройки панели управления' },
+    { keys: ['d', 'v'], description: 'Переключить неактивный режим/режим просмотра' },
+    { keys: ['d', 'k'], description: 'Переключить режим киоска (скрывает верхнюю навигацию)' },
+    { keys: ['d', 'E'], description: 'Развернуть все строки' },
+    { keys: ['d', 'C'], description: 'Свернуть все строки' },
+    { keys: ['d', 'a'], description: 'Переключить автоподгонку панелей (экспериментальная функция)' },
+    { keys: [`${modKey}+o`], description: 'Переключить перекрестие общего графика' },
+    { keys: ['d', 'l'], description: 'Переключить все легенды панели' },
   ],
-  'Focused Panel': [
-    { keys: ['e'], description: 'Toggle panel edit view' },
-    { keys: ['v'], description: 'Toggle panel fullscreen view' },
-    { keys: ['p', 's'], description: 'Open Panel Share Modal' },
-    { keys: ['p', 'd'], description: 'Duplicate Panel' },
-    { keys: ['p', 'r'], description: 'Remove Panel' },
-    { keys: ['p', 'l'], description: 'Toggle panel legend' },
+  Панель: [
+    { keys: ['e'], description: 'Переключить вид редактирования панели' },
+    { keys: ['v'], description: 'Переключить панель в полноэкранный режим' },
+    { keys: ['p', 's'], description: 'Открыть модальное окно общего доступа к панели' },
+    { keys: ['p', 'd'], description: 'Дублировать панель' },
+    { keys: ['p', 'r'], description: 'Удалить панель' },
+    { keys: ['p', 'l'], description: 'Переключить легенду панели' },
   ],
-  'Time Range': [
-    { keys: ['t', 'z'], description: 'Zoom out time range' },
+  'Временной диапазон': [
+    { keys: ['t', 'z'], description: 'Уменьшить диапазон времени' },
     {
       keys: ['t', '←'],
-      description: 'Move time range back',
+      description: 'Переместить временной диапазон назад',
     },
     {
       keys: ['t', '→'],
-      description: 'Move time range forward',
+      description: 'Переместить временной диапазон вперед',
     },
     {
       keys: ['t', 'a'],
-      description: 'Make time range absolute/permanent',
+      description: 'Сделать временной диапазон абсолютным/постоянным',
     },
   ],
 });
@@ -62,7 +61,7 @@ export const HelpModal = ({ onDismiss }: HelpModalProps): JSX.Element => {
   const modKey = useMemo(() => getModKey(), []);
   const shortcuts = useMemo(() => getShortcuts(modKey), [modKey]);
   return (
-    <Modal title="Shortcuts" isOpen onDismiss={onDismiss} onClickBackdrop={onDismiss}>
+    <Modal title="Горячие клавиши" isOpen onDismiss={onDismiss} onClickBackdrop={onDismiss}>
       <div className={styles.categories}>
         {Object.entries(shortcuts).map(([category, shortcuts], i) => (
           <div className={styles.shortcutCategory} key={i}>

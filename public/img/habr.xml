@@ -1,348 +1,440 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Леруа Мерлен - Мы строим технологическую компанию-платформу. / Статьи</title>
     <link>https://habr.com/ru/companies/leroy_merlin/articles/</link>
-    <description><![CDATA[36 статей от авторов компании Леруа Мерлен]]></description>
+    <description><![CDATA[38 статей от авторов компании Леруа Мерлен]]></description>
     <language>ru</language>
     <managingEditor>editor@habr.com</managingEditor>
     <generator>habr.com</generator>
-    <pubDate>Thu, 06 Apr 2023 19:33:17 GMT</pubDate>
-    
-      <image>
-        <link>https://habr.com/ru/</link>
-        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
-        <title>Хабр</title>
-      </image>
+    <pubDate>Wed, 24 May 2023 17:50:14 GMT</pubDate>
 
-              <item>
+    <image>
+      <link>https://habr.com/ru/</link>
+      <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+      <title>Хабр</title>
+    </image>
+
+    <item>
+      <title><![CDATA[Как следить за здоровьем GreenPlum]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/735970/</guid>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/735970/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <description><![CDATA[<p>Вопрос мониторинга GreenPlum часто оказывается непростым, особенно когда на платформе хранится действительно много данных, а запросы пользователей часто меняются. В этом посте я расскажу, как мы в «Леруа Мерлен» настраиваем инструменты Observability, находим узкие места и поддерживаем SLA кластера с GreenPlum на высоком уровне без использования проприетарных решений. Статья будет полезна DWH-архитекторам и DevOps’ам, которые планируют или уже эксплуатируют достаточно большие GP-инсталляции.</p><p></p> <a href="https://habr.com/ru/articles/735970/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
+
+      <pubDate>Tue, 23 May 2023 08:55:30 GMT</pubDate>
+      <dc:creator>diarworld</dc:creator>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Big Data]]></category>
+      <category><![CDATA[Хранилища данных]]></category>
+      <category><![CDATA[greenplum]]></category>
+      <category><![CDATA[dwh]]></category>
+      <category><![CDATA[monitoring]]></category>
+    </item>
+
+
+    <item>
+      <title><![CDATA[Святой Грааль: техническая зрелость продукта]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/733042/</guid>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/733042/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <description><![CDATA[<p>Привет, Хабр! Сегодня я хочу поговорить о таком незначимом на первый взгляд понятии, как техническая зрелость продукта (ТЗП). В этом посте мы коснемся самого понятия, попробуем разобраться, из чего зрелость состоит, как ее измерить, а самое главное — как ее достичь и какой она, собственно, должна быть. Я расскажу о том, как сам оцениваю ТЗП и каких принципов придерживаюсь при формулировании критериев зрелости, а также о том, к каким проблемам приводит недостаточная зрелость продукта. Если вам интересно, налейте в стакан любимый напиток — и добро пожаловать под кат.&nbsp;</p><p></p> <a href="https://habr.com/ru/articles/733042/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
+
+      <pubDate>Wed, 03 May 2023 12:30:01 GMT</pubDate>
+      <dc:creator>ffranchini</dc:creator>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Управление разработкой]]></category>
+      <category><![CDATA[Управление продуктом]]></category>
+      <category><![CDATA[техническая зрелость продукта]]></category>
+      <category><![CDATA[ТЗП]]></category>
+      <category><![CDATA[оценка качества]]></category>
+      <category><![CDATA[уровень зрелости]]></category>
+      <category><![CDATA[улучшение продукта]]></category>
+      <category><![CDATA[управление продуктом]]></category>
+      <category><![CDATA[управление разработкой]]></category>
+      <category><![CDATA[управление проектами и командой]]></category>
+    </item>
+
+
+    <item>
+      <title><![CDATA[Два прихлопа, два притопа: как я делал раннер со звуковым управлением на JS]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/729098/</guid>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/729098/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <description><![CDATA[<p>Привет, Хабр! Как-то раз после работы мне захотелось взять и написать небольшую компьютерную игру. А почему бы и нет? Играть я люблю, программировать — тоже. Захотелось проверить, можно ли сделать что-то прикольное <em><s>на уровне современных AAA-игр</s></em>, не изучая дополнительных языков программирования, а также избежать банального повторения тех же «велосипедов», которые уже 100500 раз выложены на различных стримах и, конечно, не раз разбирались на Хабре. В этом посте я хотел бы поделиться с вами своим небольшим экспериментом в области GameDev на базе JS и обсудить возможности, которые есть у любознательного программиста с бэкграундом в сфере JavaScript.</p><p></p> <a href="https://habr.com/ru/articles/729098/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
+
+      <pubDate>Fri, 14 Apr 2023 13:05:53 GMT</pubDate>
+      <dc:creator>SimonBryatov</dc:creator>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[CSS]]></category>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[HTML]]></category>
+      <category><![CDATA[TypeScript]]></category>
+      <category><![CDATA[javascript]]></category>
+      <category><![CDATA[разработка веб-сайтов]]></category>
+      <category><![CDATA[pet project]]></category>
+      <category><![CDATA[game design]]></category>
+      <category><![CDATA[gamedev]]></category>
+    </item>
+
+
+    <item>
       <title><![CDATA[Оптимизируем NiFi Flow. Настройка Load Balancing, подходы к Scheduling и выбор метода merge]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/726616/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/726616/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/726616/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Если вы используете в своей работе NiFi, то наверняка не раз задумывались об оптимизации, а может быть и делали ее. В этом посте я поделюсь своими наработками в области настроек NiFi, благодаря которым мы получили позитивные результаты и улучшили работу наших собственных сервисов. А если конкретно, речь пойдет про выбор стратегии балансировки нагрузки между нодами кластера (load balancing), настройке работы процессоров NiFi в рамках одной ноды (Concurrent tasks, Run Duration), а также о том, что делать с косяками Merge Record. Если интересно, ныряйте под кат и давайте обсудим, что еще хорошего можно сделать с NiFi.&nbsp;</p><p></p> <a href="https://habr.com/ru/articles/726616/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Wed, 05 Apr 2023 11:13:30 GMT</pubDate>
       <dc:creator>rustoherox</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Open source]]></category><category><![CDATA[Apache]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[data engineering]]></category><category><![CDATA[open source]]></category><category><![CDATA[apache nifi]]></category><category><![CDATA[nifi]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Open source]]></category>
+      <category><![CDATA[Apache]]></category>
+      <category><![CDATA[Big Data]]></category>
+      <category><![CDATA[Data Engineering]]></category>
+      <category><![CDATA[data engineering]]></category>
+      <category><![CDATA[open source]]></category>
+      <category><![CDATA[apache nifi]]></category>
+      <category><![CDATA[nifi]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Очередной этап сделайсама: микроконтроллеры + JS]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/721928/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/721928/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/721928/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Привет, Хабр! Сегодня мы поговорим о том, как сделать систему управления отоплением в загородном доме своими руками, используя легкодоступные микроконтроллеры и свободное ПО…причем сделать её так, чтобы можно было запрограммировать работу нужных устройств при помощи моего любимого JavaScript. Под катом — разбор трех вариантов решения этой задачи (включая тот самый, который я выбрал), а также масса рассуждений о преимуществах и недостатках данного подхода. Всех любителей сделайсамов и очумелых ручек приглашаю под кат.</p><p></p> <a href="https://habr.com/ru/articles/721928/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Tue, 14 Mar 2023 12:02:01 GMT</pubDate>
       <dc:creator>SimonBryatov</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Умный дом]]></category><category><![CDATA[DIY или Сделай сам]]></category>
-      <category><![CDATA[микроконтроллеры]]></category><category><![CDATA[diy]]></category><category><![CDATA[отопление]]></category><category><![CDATA[умный дом]]></category><category><![CDATA[javascript]]></category><category><![CDATA[espruino]]></category><category><![CDATA[esp8266]]></category><category><![CDATA[arduino]]></category><category><![CDATA[dht11]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[Умный дом]]></category>
+      <category><![CDATA[DIY или Сделай сам]]></category>
+      <category><![CDATA[микроконтроллеры]]></category>
+      <category><![CDATA[diy]]></category>
+      <category><![CDATA[отопление]]></category>
+      <category><![CDATA[умный дом]]></category>
+      <category><![CDATA[javascript]]></category>
+      <category><![CDATA[espruino]]></category>
+      <category><![CDATA[esp8266]]></category>
+      <category><![CDATA[arduino]]></category>
+      <category><![CDATA[dht11]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[О факапах с любовью]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/716776/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/716776/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/716776/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Привет!</p><p>Меня зовут Александр Поплёвко, я руководитель продукта онлайн-платежей в Леруа Мерлен.</p><p>В 2021 году меня постоянно терзала мысль: все вокруг только и говорят об «успешном успехе», а делиться болью и факапами — персональными или командными — как-то не очень принято. Хотя, на мой взгляд, пользы от таких обсуждений ничуть не меньше, чем от положительных историй.</p><p>Под катом небольшая история о том, как мы организовали «факап-митапы» (тоже не без факапов) внутри нашей компании, зачем это вообще нужно и при чём тут <code>some title some text</code>.</p><p></p> <a href="https://habr.com/ru/articles/716776/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Tue, 14 Feb 2023 08:04:43 GMT</pubDate>
       <dc:creator>Alex_Poplyovko</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Управление сообществом]]></category>
-      <category><![CDATA[сообщество]]></category><category><![CDATA[сообщество разработчиков]]></category><category><![CDATA[ошибки]]></category><category><![CDATA[факап]]></category><category><![CDATA[митап]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Управление сообществом]]></category>
+      <category><![CDATA[сообщество]]></category>
+      <category><![CDATA[сообщество разработчиков]]></category>
+      <category><![CDATA[ошибки]]></category>
+      <category><![CDATA[факап]]></category>
+      <category><![CDATA[митап]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Платформа данных в Леруа Мерлен — как мы победили масштабирование]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/712946/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/712946/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/712946/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Всем привет! Меня зовут Александр Токарев, я технический архитектор домена «Управление данными» в «Леруа Мерлен». Год назад мы уже делали <a href="https://habr.com/ru/company/leroy_merlin/blog/561072/"><u>обзор</u></a> нашей Платформы данных, сейчас же я расскажу про её развитие за последний год и про задачи, которые нам удалось решить.</p><p>Мы столкнулись с необходимостью масштабировать наш подход, когда количество источников, интегрированных в платформу, стало больше 150. Всего же мы планируем интегрировать данные из более чем 800 систем. Однако ETL-инструменты, которые мы использовали на первых этапах развития дата платформы, не позволяли добиться эффективного масштабирования. Кроме того, сам процесс интеграции источников был достаточно трудоемким. Поэтому возник запрос на рефакторинг архитектуры процесса поставки данных, который, с одной стороны, позволил бы эффективно горизонтально масштабироваться, а с другой стороны, упростил бы сам процесс интеграции. В результате мы пришли к следующей схеме процесса.</p><p></p> <a href="https://habr.com/ru/articles/712946/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Wed, 08 Feb 2023 08:08:49 GMT</pubDate>
       <dc:creator>alextokarev</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[dwh]]></category><category><![CDATA[flink]]></category><category><![CDATA[spark]]></category><category><![CDATA[data platform]]></category><category><![CDATA[greenplum]]></category><category><![CDATA[cdc]]></category><category><![CDATA[kafka]]></category><category><![CDATA[bigdata]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Big Data]]></category>
+      <category><![CDATA[Хранение данных]]></category>
+      <category><![CDATA[Data Engineering]]></category>
+      <category><![CDATA[dwh]]></category>
+      <category><![CDATA[flink]]></category>
+      <category><![CDATA[spark]]></category>
+      <category><![CDATA[data platform]]></category>
+      <category><![CDATA[greenplum]]></category>
+      <category><![CDATA[cdc]]></category>
+      <category><![CDATA[kafka]]></category>
+      <category><![CDATA[bigdata]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Data driven SRE]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/712960/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/712960/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/712960/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Начнем эту увлекательную историю издалека. Во время первого локдауна, в начале 2020 года, сайт Леруа Мерлен испытал бóльшую нагрузку, чем когда-либо. Проводившие много времени дома и на даче наши пользователи взялись чинить полочки, проектировать новые кухни и всеми силами делать свой дом уютнее, воплощая в жизнь новые ремонтные проекты, а инженеры были вынуждены экстренно адаптировать системы под небывалый наплыв трафика. Тогда же стало ясно, что начатое незадолго до локдауна внедрение элементов SRE нужно ускорить.</p><p></p> <a href="https://habr.com/ru/articles/712960/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Thu, 26 Jan 2023 09:00:03 GMT</pubDate>
       <dc:creator>imert</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Управление разработкой]]></category>
-      <category><![CDATA[sre]]></category><category><![CDATA[slo]]></category><category><![CDATA[error budget]]></category><category><![CDATA[golden signals]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Управление разработкой]]></category>
+      <category><![CDATA[sre]]></category>
+      <category><![CDATA[slo]]></category>
+      <category><![CDATA[error budget]]></category>
+      <category><![CDATA[golden signals]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Tests as code с Allure TestOps и что из этого вышло]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/709902/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/709902/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/709902/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Внедрение автоматизированных практик тестирования — очень полезная штука. Однако при подходе к этой задаче возникает масса вопросов. Какую платформу выбрать? Сложной ли будет миграция? Какие подводные камни ждут впереди? В своем посте я расскажу, как мы переносили практику тестирования и внедряли «тесты как код» на базе Allure TestOps.</p><p>Достаточно давно (по меркам ИТ-мира) я посмотрел доклад Артема Ерошенко с Heisenbug 2020 «<a href="https://youtu.be/Prm2-c_5mYs">Тест-кейсы как код</a>». С переходом в Леруа Мерлен со старой TMS на Allure TestOps появилось желание полноценно попробовать данный подход у себя.</p><p>В статье расскажу о том, что из этого получилось.</p><p></p> <a href="https://habr.com/ru/articles/709902/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Wed, 11 Jan 2023 13:00:03 GMT</pubDate>
       <dc:creator>AugustoZ</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Тестирование веб-сервисов]]></category><category><![CDATA[Тестирование мобильных приложений]]></category>
-      <category><![CDATA[тестирование по]]></category><category><![CDATA[qa]]></category><category><![CDATA[qa automation]]></category><category><![CDATA[qa management]]></category><category><![CDATA[allure testops]]></category><category><![CDATA[автоматизация тестов]]></category><category><![CDATA[автоматизация тест-кейсов]]></category><category><![CDATA[автоматизация тестирования]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Тестирование IT-систем]]></category>
+      <category><![CDATA[Тестирование веб-сервисов]]></category>
+      <category><![CDATA[Тестирование мобильных приложений]]></category>
+      <category><![CDATA[тестирование по]]></category>
+      <category><![CDATA[qa]]></category>
+      <category><![CDATA[qa automation]]></category>
+      <category><![CDATA[qa management]]></category>
+      <category><![CDATA[allure testops]]></category>
+      <category><![CDATA[автоматизация тестов]]></category>
+      <category><![CDATA[автоматизация тест-кейсов]]></category>
+      <category><![CDATA[автоматизация тестирования]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[DIY-метаданные: как мы собрали велосипед, который везет на себе технологические данные компании]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/701448/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/701448/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/701448/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Привет, Хабр! Меня зовут Ткачев Константин, и я работаю архитектором в Леруа Мерлен.</p><p>В этой статье я хочу рассказать, как мы смогли, используя только open-source, построить систему работы с метаданными, которая позволила:<br>- централизовать и унифицировать описания данных, используемых в компании;<br>- автоматизировать процессы загрузки данных в корпоративное хранилище — платформу данных;<br>- и сделать еще многое-многое другое…</p><p>А если добавить к этому, что мы сделали это быстро — и в итоге за пару месяцев получили работающую систему, то станет ясно, почему мы решили поделиться этим опытом с пользователями Хабра.</p><p></p> <a href="https://habr.com/ru/articles/701448/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Thu, 15 Dec 2022 07:30:01 GMT</pubDate>
       <dc:creator>Tkachev_KV</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Git]]></category><category><![CDATA[Хранилища данных]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[метаданные]]></category><category><![CDATA[ci-cd]]></category><category><![CDATA[хранилище]]></category><category><![CDATA[bigdata]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Git]]></category>
+      <category><![CDATA[Хранилища данных]]></category>
+      <category><![CDATA[DevOps]]></category>
+      <category><![CDATA[Data Engineering]]></category>
+      <category><![CDATA[метаданные]]></category>
+      <category><![CDATA[ci-cd]]></category>
+      <category><![CDATA[хранилище]]></category>
+      <category><![CDATA[bigdata]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[«Светофор 3.0»: тонкости настройки ML для работы с поставщиками]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/657875/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/657875/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/657875/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Мы продолжаем рассказ про нашу систему «Светофор 3.0», которая позволяет прогнозировать качество прямых поставок и экономить время на приемке товара. О том, как это работает и зачем нужно компании, вы можете прочитать в нашем <a href="https://habr.com/ru/company/leroy_merlin/blog/691250/">предыдущем посте</a>, а сегодня мы раскрываем техническую сторону вопроса — об алгоритме ML и его развитии, о схеме передачи данных и некоторых нюансах интеграции «Светофора 3.0» со складской системой.  </p><p></p> <a href="https://habr.com/ru/articles/657875/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Thu, 17 Nov 2022 07:30:02 GMT</pubDate>
       <dc:creator>AlexGr</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Data Mining]]></category><category><![CDATA[Машинное обучение]]></category>
-      <category><![CDATA[catboost]]></category><category><![CDATA[machine learning]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[IT-инфраструктура]]></category>
+      <category><![CDATA[Data Mining]]></category>
+      <category><![CDATA[Машинное обучение]]></category>
+      <category><![CDATA[catboost]]></category>
+      <category><![CDATA[machine learning]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[От кода «на коленке» к эффективному CI/CD: строим общий Pipeline as Code командой в 100+ человек]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/695604/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/695604/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/695604/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Много команд, много продуктов, каждый автоматизирует релизный цикл, у каждого свой набор скриптов. Дублирование, отсутствие обмена практиками и повторное изобретение колеса приводит к тому, что команды тратят много времени на построение своего CI/CD. И все это поддерживает микросервисную архитектуру, где автоматизации нужно уделить особое внимание.</p><p>Меня зовут Владимир Цыбров, я релиз-инженер Леруа Мерлен и сегодня расскажу, какие в компании были подходы к построению пайплайнов и улучшению качества их кода. Спойлер: мы использовали подход InnerSource и предоставили командам self-service-инструменты.</p> <a href="https://habr.com/ru/articles/695604/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Wed, 02 Nov 2022 12:00:02 GMT</pubDate>
       <dc:creator>Vovanikys</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Groovy & Grails]]></category><category><![CDATA[Системы сборки]]></category><category><![CDATA[Управление сообществом]]></category><category><![CDATA[DevOps]]></category>
-      <category><![CDATA[jenkins]]></category><category><![CDATA[ci/cd]]></category><category><![CDATA[shared library]]></category><category><![CDATA[пайплайн]]></category><category><![CDATA[пайплайны]]></category><category><![CDATA[innersource]]></category><category><![CDATA[self-service]]></category><category><![CDATA[devops]]></category><category><![CDATA[релиз-инжиниринг]]></category><category><![CDATA[groovy]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Groovy & Grails]]></category>
+      <category><![CDATA[Системы сборки]]></category>
+      <category><![CDATA[Управление сообществом]]></category>
+      <category><![CDATA[DevOps]]></category>
+      <category><![CDATA[jenkins]]></category>
+      <category><![CDATA[ci/cd]]></category>
+      <category><![CDATA[shared library]]></category>
+      <category><![CDATA[пайплайн]]></category>
+      <category><![CDATA[пайплайны]]></category>
+      <category><![CDATA[innersource]]></category>
+      <category><![CDATA[self-service]]></category>
+      <category><![CDATA[devops]]></category>
+      <category><![CDATA[релиз-инжиниринг]]></category>
+      <category><![CDATA[groovy]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[«Светофор 3.0»: как мы начали доверять поставщикам на основе рекомендаций машинного обучения]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/691250/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/691250/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/691250/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Привет, Хабр! Сегодня мы хотим рассказать о том, как машинное обучение помогает нам освободить время сотрудников в магазинах от длительного пересчета товаров в прямых поставках и сосредоточиться на работе с клиентами. В этом посте мы расскажем, как работает наш продукт «Светофор 3.0», сколько рабочего времени он позволяет экономить и как мы используем ML для оценки вероятностей наличия расхождений в заказах. Кроме этого, расскажем о тонкостях выстраивания доверия сотрудников рекомендациям умной системы. Всех заинтересованных приглашаем под кат и к обсуждению в комментариях.</p><p></p> <a href="https://habr.com/ru/articles/691250/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Tue, 18 Oct 2022 07:00:02 GMT</pubDate>
       <dc:creator>MikhailGariyants</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Data Mining]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Управление продуктом]]></category>
-      <category><![CDATA[ML]]></category><category><![CDATA[дата-продукты]]></category><category><![CDATA[логистика ecommerce]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Data Mining]]></category>
+      <category><![CDATA[Машинное обучение]]></category>
+      <category><![CDATA[Управление продуктом]]></category>
+      <category><![CDATA[ML]]></category>
+      <category><![CDATA[дата-продукты]]></category>
+      <category><![CDATA[логистика ecommerce]]></category>
     </item>
 
 
-
-
-
-  
     <item>
-        <title><![CDATA[Крадущийся Kotlin, затаившийся Airflow: пять любимых технологий «Леруа Мерлен»]]></title>
-        <guid isPermaLink="true">https://habr.com/ru/specials/645673/</guid>
-        <link>https://habr.com/ru/specials/645673/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
-        <description><![CDATA[Когда заходит речь о модных и передовых технологиях, ритейл, особенно строительный, — последнее место, где их станут искать. Ну что там может быть интересного: сайт на битриксе и мобильное приложение с программой лояльности? И в каких-то случаях этот стереотип не врёт, но «Леруа Мерлен» — совсем другая история. Наша IT-инфраструктура мощна, как лапищи мемного волка, а команда разработки столь же хороша.
+      <title><![CDATA[Крадущийся Kotlin, затаившийся Airflow: пять любимых технологий «Леруа Мерлен»]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/specials/645673/</guid>
+      <link>
+        https://habr.com/ru/specials/645673/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <description><![CDATA[Когда заходит речь о модных и передовых технологиях, ритейл, особенно строительный, — последнее место, где их станут искать. Ну что там может быть интересного: сайт на битриксе и мобильное приложение с программой лояльности? И в каких-то случаях этот стереотип не врёт, но «Леруа Мерлен» — совсем другая история. Наша IT-инфраструктура мощна, как лапищи мемного волка, а команда разработки столь же хороша.
 <br>
 <br>
 Но технологии — это благо и боль в одном флаконе, прямо как супергеройские способности. В этом посте пять наших специалистов самого разного профиля — от фронтенд-разработчика до технического архитектора — расскажут, чем хороши их любимые инструменты, а в каких случаях надо не забывать страдать.
  <a href="https://habr.com/ru/articles/645673/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-        
-        <pubDate>Mon, 17 Jan 2022 16:03:08 GMT</pubDate>
-        <dc:creator>megapost</dc:creator>
-        <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Совершенный код]]></category><category><![CDATA[Разработка мобильных приложений]]></category>
-        <category><![CDATA[react]]></category><category><![CDATA[compose multiplatform]]></category><category><![CDATA[kotlin]]></category><category><![CDATA[kubernetes]]></category><category><![CDATA[airflow]]></category><category><![CDATA[леруа мерлен]]></category>
+
+      <pubDate>Mon, 17 Jan 2022 16:03:08 GMT</pubDate>
+      <dc:creator>megapost</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[Программирование]]></category>
+      <category><![CDATA[Совершенный код]]></category>
+      <category><![CDATA[Разработка мобильных приложений]]></category>
+      <category><![CDATA[react]]></category>
+      <category><![CDATA[compose multiplatform]]></category>
+      <category><![CDATA[kotlin]]></category>
+      <category><![CDATA[kubernetes]]></category>
+      <category><![CDATA[airflow]]></category>
+      <category><![CDATA[леруа мерлен]]></category>
     </item>
 
 
-
-
-      <item>
+    <item>
       <title><![CDATA[Управление распределенными транзакциями с помощью Camunda]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/589155/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/589155/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/589155/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>"Всякое решение плодит новые проблемы" (закон Мерфи)</p><p>В этой статье я собираюсь поговорить о подходе к решению задачи обеспечения консистентности данных в микросервисной архитектуре, т.н. распределенных транзакциях. </p><p>Почти два года назад я впервые познакомился с инструментом Camunda и использованием его в качестве оркестратора распределенных транзакций. Мне далеко не сразу удалось вникнуть во все детали того, как устроена оркестрация на Camunda, поэтому в этой статье я постарался осветить как можно больше деталей, которые могут быть полезны другим разработчикам.</p> <a href="https://habr.com/ru/articles/589155/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Mon, 22 Nov 2021 08:46:32 GMT</pubDate>
       <dc:creator>alexahdp</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Распределённые системы]]></category>
-      <category><![CDATA[camunda]]></category><category><![CDATA[распределенные транзакции]]></category><category><![CDATA[оркестрация микросервисов]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Распределённые системы]]></category>
+      <category><![CDATA[camunda]]></category>
+      <category><![CDATA[распределенные транзакции]]></category>
+      <category><![CDATA[оркестрация микросервисов]]></category>
     </item>
-
-
-
-
-
-  
 
 
     <item>
       <title><![CDATA[[Перевод] Airflow + Ray: Data Science История]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/583424/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/583424/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/583424/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Всем привет! Основным инструментом оркестрации задач для обработки данных в Леруа Мерлен является Apache Airflow, подробнее о нашем опыте работы с ним можно прочитать <a href="https://habr.com/ru/company/leroy_merlin/blog/580944/"><u>тут</u></a>. А также мы находимся в постоянном поиске инструментов и фреймворков для упрощения работы наших дата сайентистов и дата инженеров. Один из таких инструментов – фреймворк Ray, который позволяет создавать ML пайплайны из DAGов Airflow. В статье от Astronomer подробно рассматривается, как начать его использовать и с его помощью быстро развернуть и обучить модель.</p> <a href="https://habr.com/ru/articles/583424/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Thu, 14 Oct 2021 10:16:22 GMT</pubDate>
       <dc:creator>diarworld</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Apache]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Data Engineering]]></category>
-      <category>airflow</category><category>datascience</category><category>ml</category><category>machinelearning</category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Apache]]></category>
+      <category><![CDATA[Big Data]]></category>
+      <category><![CDATA[Data Engineering]]></category>
+      <category>airflow</category>
+      <category>datascience</category>
+      <category>ml</category>
+      <category>machinelearning</category>
     </item>
 
 
-      <item>
+    <item>
       <title><![CDATA[Микрофронтенды: наш путь к более быстрому и гибкому сайту]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/581938/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/581938/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/581938/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Привет, Хабр! Сегодня мы хотим поделиться нашим опытом создания собственной платформы микрофронтэндов и постепенной миграции веб-сайта компании на микросервисы. В этом посте вы узнаете, как мы пришли к этому решению, каким образом организовано тестирование фрагментов сайта, а также немного о повседневных задачах разработчиков, которые создают компоненты для такого модульного сайта. Если вы тоже занимаетесь микрофронтами или планируете это делать, обязательно делитесь опытом и присоединяйтесь к нашей дискуссии.</p> <a href="https://habr.com/ru/articles/581938/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Wed, 06 Oct 2021 13:51:12 GMT</pubDate>
       <dc:creator>cloudofgeorge</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Микросервисы]]></category>
-      <category><![CDATA[микросервисы]]></category><category><![CDATA[микрофронтенды]]></category><category><![CDATA[веб-приложения]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[Микросервисы]]></category>
+      <category><![CDATA[микросервисы]]></category>
+      <category><![CDATA[микрофронтенды]]></category>
+      <category><![CDATA[веб-приложения]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Как мы развернули коммунальный Apache Airflow для 30+ команд и сотни разработчиков]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/580944/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/580944/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/580944/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>О том как мы внедряли Apache Airflow для использования различными командами в нашей компании, какие задачи мы хотели решить этим сервисом. Внутри описание архитектуры деплоя и наш Infrastructure as Code (IaC).</p> <a href="https://habr.com/ru/articles/580944/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Thu, 30 Sep 2021 13:10:22 GMT</pubDate>
       <dc:creator>dlampsi</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Apache]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[airflow]]></category><category><![CDATA[devops]]></category><category><![CDATA[bigdata]]></category><category><![CDATA[dag]]></category><category><![CDATA[apache]]></category><category><![CDATA[apache airflow]]></category><category><![CDATA[data]]></category><category><![CDATA[data engineering]]></category><category><![CDATA[data science]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Apache]]></category>
+      <category><![CDATA[Big Data]]></category>
+      <category><![CDATA[DevOps]]></category>
+      <category><![CDATA[Data Engineering]]></category>
+      <category><![CDATA[airflow]]></category>
+      <category><![CDATA[devops]]></category>
+      <category><![CDATA[bigdata]]></category>
+      <category><![CDATA[dag]]></category>
+      <category><![CDATA[apache]]></category>
+      <category><![CDATA[apache airflow]]></category>
+      <category><![CDATA[data]]></category>
+      <category><![CDATA[data engineering]]></category>
+      <category><![CDATA[data science]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Хакатон за месяц или практичные советы по организации хакатонов для новичков (от новичков)]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/578522/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/578522/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/578522/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Всем привет! Недавно мы в первый раз организовали внутренний Хакатон и в этой статье я расскажу про то, как мы это сделали и про шишки, которые мы набили по пути его организации. Статья будет полезна всем, кто впервые организовывает Хакатон: и инженерам, и DevRel, и HR.   </p> <a href="https://habr.com/ru/articles/578522/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Fri, 17 Sep 2021 12:06:50 GMT</pubDate>
       <dc:creator>Lena_Meremyanina</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Хакатоны]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Хакатоны]]></category>
       <category><![CDATA[хакатон]]></category>
     </item>
 
 
-
-
-
-      <item>
+    <item>
       <title><![CDATA[Camunda: автоматизация бизнес-процессов и оркестрация микросервисов]]></title>
       <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/568852/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/568852/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
+      <link>
+        https://habr.com/ru/companies/leroy_merlin/articles/568852/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
       <description><![CDATA[<p>Несколько лет назад Леруа Мерлен начала масштабную программу ИТ-трансформации с использованием таких прогрессивных течений, как микросервисная архитектура, предметно-ориентированное проектирование (оно же DDD) и формирование собственных in-house-команд разработки. Пилотным проектом этой программы стало построение омниканальной платформы продаж, то есть возможность для клиента сделать взаимодействие с компанией удобным и доступным через любой существующий канал продаж, будь то сайт, магазин, колл-центр и т.&nbsp;д., в том числе наша платформа дает возможность взаимодействовать с различными партнерами для получения бизнес-синергии.&nbsp;Этой статьей мы начинаем рассказ об опыте использования open-source-платформы Camunda. </p> <a href="https://habr.com/ru/articles/568852/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
+
       <pubDate>Fri, 23 Jul 2021 07:00:54 GMT</pubDate>
       <dc:creator>eslesarenko</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[IT-инфраструктура]]></category>
-      <category><![CDATA[микросервисная архитектура]]></category><category><![CDATA[camunda]]></category><category><![CDATA[проектирование]]></category><category><![CDATA[lowcode]]></category><category><![CDATA[bpm]]></category><category><![CDATA[orchestration]]></category>
+      <category><![CDATA[Блог компании Леруа Мерлен]]></category>
+      <category><![CDATA[Анализ и проектирование систем]]></category>
+      <category><![CDATA[IT-инфраструктура]]></category>
+      <category><![CDATA[микросервисная архитектура]]></category>
+      <category><![CDATA[camunda]]></category>
+      <category><![CDATA[проектирование]]></category>
+      <category><![CDATA[lowcode]]></category>
+      <category><![CDATA[bpm]]></category>
+      <category><![CDATA[orchestration]]></category>
     </item>
-
-
-
-
-
-      <item>
-      <title><![CDATA[Платформа данных в Леруа Мерлен. Part 2. Обновления 2021 года: Flink и Superset]]></title>
-      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/567874/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/567874/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
-      <description><![CDATA[<p>Всем привет!</p><p>«Данные – это новая нефть» – вам наверняка доводилось уже не раз слышать эту фразу. Впервые в 2006 году эту идею <a href="https://ana.blogs.com/maestros/2006/11/data_is_the_new.html"><u>озвучил</u></a> математик Клайв Хамби в своем блоге, но с тех пор она не потеряла популярности и сейчас её можно услышать почти из каждого утюга. Особую актуальность это выражение приобрело с внедрением технологий обработки больших данных: Hadoop, MapReduce, Spark, Flink, Anaconda (Jupyter), MLFlow, Kubeflow и далее множество других названий, <a href="https://pixelastic.github.io/pokemonorbigdata/"><u>похожих на имена покемонов</u></a>. В этой статье мы хотели бы рассказать, какие из них мы выбрали в 2021 году в Леруа Мерлен Россия для своей платформы данных. Эта статья является продолжением нашей первой статьи о платформе –&nbsp; <a href="https://habr.com/ru/company/leroy_merlin/blog/561072/"><u>Платформа данных в Леруа Мерлен – 2 года, сотни источников и более 2.000 пользователей</u></a>.</p> <a href="https://habr.com/ru/articles/567874/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
-      <pubDate>Thu, 15 Jul 2021 10:35:45 GMT</pubDate>
-      <dc:creator>diarworld</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Облачные вычисления]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Хранилища данных]]></category>
-      <category><![CDATA[flink]]></category><category><![CDATA[superset]]></category><category><![CDATA[dwh]]></category><category><![CDATA[архитектура]]></category><category><![CDATA[datalake]]></category>
-    </item>
-
-
-
-
-
-      <item>
-      <title><![CDATA[DAG’и без напрягов: наш опыт использования метаданных при работе с Apache Airflow]]></title>
-      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/564276/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/564276/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
-      <description><![CDATA[<p>Apache Airflow – простой и удобный batch-ориентированный инструмент для построения, планирования и мониторинга дата-пайплайнов. Ключевой его особенностью является то, что, используя Python-код и встроенные функциональные блоки, можно соединить множество различных технологий, использующихся в современном мире. Основная рабочая сущность Airflow – DAG – направленный ацикличный граф, в котором узлами являются задачи, а зависимости между задачами представлены направленными ребрами.&nbsp;</p><p>Те, кто использует Apache Airflow для оркестрации задач загрузки данных в хранилище, наверняка оценили гибкость, которую он предоставляет для решения шаблонных задач. Когда весь процесс разработки сводится к заполнению конфигурационного файла с описанием параметров DAGа и списком задач, которые должны выполняться. У нас в Леруа Мерлен такой подход успешно используется для создания задач по перекладыванию данных из raw-слоя в ods-слой хранилища. Поэтому было решено распространить его на задачи по заполнению витрин данных.&nbsp;&nbsp;</p> <a href="https://habr.com/ru/articles/564276/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
-      <pubDate>Wed, 23 Jun 2021 11:17:37 GMT</pubDate>
-      <dc:creator>andylar</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Apache]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Хранилища данных]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[airflow]]></category><category><![CDATA[greenplum]]></category><category><![CDATA[marts-loader]]></category><category><![CDATA[postgres]]></category><category><![CDATA[database]]></category>
-    </item>
-
-
-
-
-
-      <item>
-      <title><![CDATA[Что нам стоит… загрузить JSON в Data Platform]]></title>
-      <guid isPermaLink="true">https://habr.com/ru/companies/leroy_merlin/articles/563066/</guid>
-      <link>https://habr.com/ru/companies/leroy_merlin/articles/563066/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog</link>
-      <description><![CDATA[<p>Всем привет! В <a href="https://habr.com/ru/company/leroy_merlin/blog/561072/">недавней статье</a> мы рассказали, как мы шли к построению нашей Data Platform. </p><p>Сегодня хотелось бы глубже погрузиться в «желудок» нашей платформы и попутно рассказать вам о том, как мы решали одну из задач, которая возникла в связи с ростом разнообразия интегрируемых источников данных.</p><p>То есть, если возвращаться к финальной схеме из упомянутой выше  статьи (специально дублирую ее ниже, чтобы уважаемым читателям было удобнее),  то сегодня мы будем более углубленно говорить о реализации «правой  части» схемы — той, что лежит после Apache NiFi.  </p> <a href="https://habr.com/ru/articles/563066/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=corporate_blog#habracut">Читать далее</a>]]></description>
-      
-      <pubDate>Wed, 16 Jun 2021 13:05:14 GMT</pubDate>
-      <dc:creator>Ninil</dc:creator>
-      <category><![CDATA[Блог компании Леруа Мерлен]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Хранилища данных]]></category><category><![CDATA[Data Engineering]]></category>
-      <category><![CDATA[spark]]></category><category><![CDATA[json]]></category><category><![CDATA[data platform]]></category><category><![CDATA[data lake]]></category><category><![CDATA[pyspark]]></category>
-    </item>
-
-
-
-
-
-
-
-
-
 
 
   </channel>
