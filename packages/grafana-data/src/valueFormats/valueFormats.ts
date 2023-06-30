@@ -177,7 +177,7 @@ export function localeRussian(value: number, decimals: DecimalCount): FormattedV
     return { text: '' };
   }
   return {
-    text: value.toLocaleString('ru-RU', { maximumFractionDigits: decimals as number }) + ' ₽',
+    text: value.toLocaleString('ru-RU', { maximumFractionDigits: decimals as number }),
   };
 }
 export function simpleCountUnit(symbol: string): ValueFormatter {
