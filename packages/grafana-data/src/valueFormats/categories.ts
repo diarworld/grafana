@@ -26,6 +26,8 @@ import {
 import { binaryPrefix, currency, SIPrefix } from './symbolFormatters';
 import {
   locale,
+  localeRussian,
+  localeRuble,
   scaledUnits,
   simpleCountUnit,
   toFixedUnit,
@@ -53,6 +55,8 @@ export const getCategories = (): ValueFormatCategory[] => [
       { name: 'Hexadecimal', id: 'hex', fn: toHex },
       { name: 'Scientific notation', id: 'sci', fn: sci },
       { name: 'Locale format', id: 'locale', fn: locale },
+      { name: 'Locale Rusian', id: 'locale', fn: localeRussian },
+      { name: 'Russian currency', id: 'locale', fn: localeRuble },
       { name: 'Pixels', id: 'pixel', fn: toFixedUnit('px') },
     ],
   },

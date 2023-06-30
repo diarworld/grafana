@@ -163,6 +163,23 @@ export function locale(value: number, decimals: DecimalCount): FormattedValue {
   };
 }
 
+export function localeRuble(value: number, decimals: DecimalCount): FormattedValue {
+  if (value == null) {
+    return { text: '' };
+  }
+  return {
+    text: value.toLocaleString('ru-RU', { maximumFractionDigits: decimals as number }) + ' ₽',
+  };
+}
+
+export function localeRussian(value: number, decimals: DecimalCount): FormattedValue {
+  if (value == null) {
+    return { text: '' };
+  }
+  return {
+    text: value.toLocaleString('ru-RU', { maximumFractionDigits: decimals as number }) + ' ₽',
+  };
+}
 export function simpleCountUnit(symbol: string): ValueFormatter {
   const units = ['', 'K', 'M', 'B', 'T'];
   const scaler = scaledUnits(1000, units);
